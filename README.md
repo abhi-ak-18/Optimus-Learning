@@ -5,34 +5,59 @@ Problem Definition:
 Read words/characters from a file and count the number of words,also count the repeated words in the file.
 
 Solution:
-Programming Language used-Python 3
+
+Programming Language used-Python 3.
+
 -Import required libraries.
+
 -Open a file in read mode to read the contents of the file and display the contents.
+
 -A function to count the number of words.
+
 -A function to count the repeated words.
+
 -Display the total count of words.
+
 -Display the repeated words along with their counts.
 
+
 Algorithm:
+
 Step 1:Import the required library files. 
+
 Step 2:Open the text file in read mode. 
+
 Step 3:Read & store data in a variable.
+
 Step 4:Print contents of text file stored in the variable. 
+
 Step 5:Declare a variable to count the number of words and initialize it to zero.
+
 Step 6:Declare a dictionary for holding count values of each word.
+
 Step 7:Split the file data into words.
+
 Step 8:Calculate total number of words in file.
+
 Step 9:Print total number of words.
+
 Step 10:for word in words:
           if word in counts:                  
               counts[word] += 1               
           else:                               
               counts[word] = 1
+
 Step 11:Print the repeated words along with their occurances.
 
+
 User Manual:
+
 1.Enter the text file name along with.txt format when prompted for the filename.
+
 2.The output will be displayed as follows:
+  
   -The contents of the given filename.
+  
   -Number of words in the file.
+  
   -A table form containing the words along with their occurances.
