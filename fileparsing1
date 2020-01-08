@@ -24,3 +24,4 @@ print("-"*20)
 for  (word,occurance)  in counts.items():   #printing the unique words found in file along with their occurances
     if occurance>1:
         print('{:15}{:3}'.format(word,occurance))
+f_open.close()
