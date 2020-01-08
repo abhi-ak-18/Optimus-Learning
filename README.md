@@ -41,17 +41,15 @@ Step 8:Calculate total number of words in file.
 
 Step 9:Print total number of words.
 
-Step 10:
-          for word in words:
-          
-                    if word in counts:                  
-              
-                              counts[word] += 1               
-          
-                    else:                               
-              
-                               counts[word] = 1
+Step 10:for loop to iterate through the words.
 
+          for word in words:
+                    if word in counts:                  
+                              counts[word] += 1               
+                    else:                              
+                              counts[word] = 1
+          
+          
 Step 11:Print the repeated words along with their occurances.
 
 
