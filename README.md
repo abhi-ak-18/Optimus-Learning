@@ -23,25 +23,23 @@ Programming Language used-Python 3.
 
 # Algorithm:
 
-Step 1:Import the required library files. 
+Step 1:Open the text file in read mode. 
 
-Step 2:Open the text file in read mode. 
+Step 2:Read & store data in a variable.
 
-Step 3:Read & store data in a variable.
+Step 3:Print contents of text file stored in the variable. 
 
-Step 4:Print contents of text file stored in the variable. 
+Step 4:Declare a variable to count the number of words and initialize it to zero.
 
-Step 5:Declare a variable to count the number of words and initialize it to zero.
+Step 5:Declare a dictionary for holding count values of each word.
 
-Step 6:Declare a dictionary for holding count values of each word.
+Step 6:Replace all punctuations by an empty space and split the file data into words.
 
-Step 7:Split the file data into words.
+Step 7:Calculate total number of words in file.
 
-Step 8:Calculate total number of words in file.
+Step 8:Print total number of words.
 
-Step 9:Print total number of words.
-
-Step 10:for loop to iterate through the words.
+Step 9:for loop to iterate through the words.
 
           for word in words:
                     if word in counts:                  
@@ -50,7 +48,7 @@ Step 10:for loop to iterate through the words.
                               counts[word] = 1
           
           
-Step 11:Print the repeated words along with their occurances.
+Step 10:Print the repeated words along with their occurances.
 
 
 # User Manual:
