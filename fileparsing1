@@ -7,7 +7,7 @@ print(data)                             #printing the read data from file
 
 num_words=0                             #initializing total number of words count to zero
 counts = dict()                         #declaring a dictionary for holding count values of each word
-words = data.split()                    #splitting the file data into words
+words = data.replace(',','').replace('\'','').replace('.','').replace('/','').replace('(','').replace('"','').replace('-','').replace(')','').lower().split()              #Replacing the punctuations with empty space and splitting the file data into words
 
 num_words += len(words)                 #calculating total number of words in file
 print("\n Number of words:",num_words)  #printing total number of words
