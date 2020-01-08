@@ -1,10 +1,10 @@
 # Optimus-Learning
 A repository for our day-to-day projects at OptimusLogic.
 
-Problem Definition:
+# Problem Definition:
 Read words/characters from a file and count the number of words,also count the repeated words in the file.
 
-Solution:
+# Solution:
 
 Programming Language used-Python 3.
 
@@ -21,7 +21,7 @@ Programming Language used-Python 3.
 -Display the repeated words along with their counts.
 
 
-Algorithm:
+# Algorithm:
 
 Step 1:Import the required library files. 
 
@@ -54,7 +54,7 @@ Step 10:for word in words:
 Step 11:Print the repeated words along with their occurances.
 
 
-User Manual:
+# User Manual:
 
 1.Enter the text file name along with.txt format when prompted for the filename.
 
